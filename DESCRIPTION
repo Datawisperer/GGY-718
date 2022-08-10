@@ -1,0 +1,21 @@
+Package: GMIC
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Clifford Davel
+Maintainer: davelclifford@gmail.com
+Description: The GMIC package contains three functions. First, SolTex, 
+    which determines the soil texture class based on the proportions of 
+    sand, silt, and clay. Second, FIVERT, converts millimeter to the phi 
+    scale. Lastly, wiParker, which determines the weathered state of soils
+    and rocks based on the weathering index of Parker(1970). 
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.2.1
